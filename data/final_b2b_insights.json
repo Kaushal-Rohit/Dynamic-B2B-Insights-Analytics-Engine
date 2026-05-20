@@ -1,0 +1,10 @@
+{
+    "Cluster_0": {
+        "ticket_count": 17,
+        "llm_analysis": "Based on the customer support tickets provided, here's my analysis:\n\nTitle: Product Hardware Issues\nSummary: Customers are experiencing strange noises and functionality problems with their purchased products, suspecting a hardware issue.\nActionable Advice: Conduct thorough testing to identify the root cause of the hardware issue, potentially including diagnostic tests or troubleshooting procedures, and provide a clear plan for resolution (repair, replacement, or refund) in each case."
+    },
+    "Cluster_1": {
+        "ticket_count": 33,
+        "llm_analysis": "Based on the customer support tickets, I identified the core issue and responded in the following format:\n\n**Ticket 1**\nTitle: Product Configuration Issue\nSummary: Customers are experiencing technical issues with their {product_purchased} despite configuring device settings correctly.\nActionable Advice: Review and update the product documentation to include troubleshooting steps for common issues.\n\n**Ticket 2-3, 5, 7-9**\nTitle: Incorrect or Expired Promotional Codes\nSummary: Customers are receiving invalid or expired promotional codes when attempting to redeem them.\nActionable Advice: Implement a system to track and verify promotional code validity to prevent errors.\n\n**Ticket 4**\nTitle: Product Recall Issue\nSummary: A customer is experiencing an issue that may be related to a product recall, citing the need for assistance as soon as possible due to work and productivity concerns.\nActionable Advice: Communicate with customers about any ongoing product recalls and provide clear instructions on how to handle affected products.\n\n**Ticket 6**\nTitle: Account Access Technical Issue\nSummary: Customers are unable to access their accounts or perform desired actions in the {product_purchased}.\nActionable Advice: Conduct a thorough analysis of account access issues to identify the root cause and implement fixes to improve user experience."
+    }
+}
