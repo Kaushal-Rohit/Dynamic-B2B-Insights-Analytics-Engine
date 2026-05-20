@@ -82,6 +82,8 @@ The table below documents every tracked file in this repository.
 
 | Path | Purpose |
 |---|---|
+| `README.md` | Project documentation covering architecture, setup, usage, and repository navigation. |
+| `requirements.txt` | Python dependency list required across scripts and notebooks. |
 | `.gitignore` | Git ignore rules for environment and generated artifacts. |
 | `.virtual_documents/data.ipynb` | Virtual notebook document artifact from local notebook tooling. |
 | `anaconda_projects/db/project_filebrowser.db` | Local Anaconda/Jupyter file browser SQLite state. |
@@ -164,24 +166,24 @@ ollama pull llama3:latest
 ## `requirements.txt` (recommended content)
 
 ```txt
-pandas
-numpy
-chromadb
-sentence-transformers
-umap-learn
-hdbscan
-ollama
-faiss-cpu
-scikit-learn
-jsonschema
-ipython
-notebook
-beautifulsoup4
-emoji
-torch
-transformers
-matplotlib
-seaborn
+pandas~=2.2
+numpy~=1.26
+chromadb~=0.5
+sentence-transformers~=3.0
+umap-learn~=0.5
+hdbscan~=0.8
+ollama~=0.3
+faiss-cpu~=1.8
+scikit-learn~=1.5
+jsonschema~=4.23
+ipython~=8.26
+notebook~=7.2
+beautifulsoup4~=4.12
+emoji~=2.14
+torch~=2.4
+transformers~=4.44
+matplotlib~=3.9
+seaborn~=0.13
 ```
 
 ---
